@@ -66,10 +66,15 @@ var uniqueSyn = ["unique identities", "distinctive identities", "individual iden
 
 var sentence9 = `Stop Asian ${hascreatedSyn[Math.floor(Math.random()*hascreatedSyn.length)]} a new opportunity for students ${expressSyn[Math.floor(Math.random()*expressSyn.length)]} ${uniqueSyn[Math.floor(Math.random()*uniqueSyn.length)]} by implementing a prompt in the college application process`
 
+// Please refer to our website https://www.stopasian.co/ to learn more
+
+var sentence10 = `Please refer to our website https://www.stopasian.co/ to learn more`
+
+
 // Please refer to the website link for the updated [application/form].
 
 /// JUST COLLEGE BOARD FORM ///
-var fullLetter = `${sentence1}. ${sentence2}. ${sentence3}. ${sentence4}. ${sentence5}. ${sentence6}. ${sentence7}. ${sentence8}. ${sentence9}.`
+var fullLetter = `${sentence1}. ${sentence2}. ${sentence3}. ${sentence4}. ${sentence5}. ${sentence6}. ${sentence7}. ${sentence8}. ${sentence9}. ${sentence10}.`
 console.log(fullLetter)
 
 var linkLetter = encodeURIComponent(fullLetter)
@@ -108,7 +113,7 @@ console.log(link)
 // })
   
   /// JUST COMMON APP TINGS ///
-  var fullLetter2 = `${sentence1}. ${sentence2}. ${sentence3}. ${sentence4}. ${sentence5}. ${sentence6}. ${sentence7}. ${sentence8}. ${sentence9}.`
+  var fullLetter2 = `${sentence1}. ${sentence2}. ${sentence3}. ${sentence4}. ${sentence5}. ${sentence6}. ${sentence7}. ${sentence8}. ${sentence9}. ${sentence10}.`
     var commonAppEmails = [
     "commonappsupport@commonapp.net", "dtiss@commonapp.org", "aortega@commonapp.org","tfox@commonapp.org", "akumar@commonapp.org", "atate@commonapp.org", "msunderland@commonapp.org", "dtiss@commonapp.org", "jdavis@commonapp.org", "wkifle@commonapp.org", "aortega@commonapp.org","mhalterman@commonapp.org","cburger@commonapp.org","sgiede@commonapp.org","mhancock@commonapp.org","kleahey@commonapp.org","sanderson@commonapp.org","tshaup@commonapp.org","jrickard@commonapp.org","vrao@commonapp.org","kkennedy@commonapp.org","amerhige@commonapp.org","yazdani@commonapp.org"]
     var caEmails = commonAppEmails.join(",")
