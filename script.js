@@ -19,7 +19,10 @@ var almostexclusivelySyn = ["almost exclusively", "always", "consistently", "con
 var towardsSyn = ["toward", "directed", "aimed", "for"]
 var preventingSyn = ["preventing", "blocking", "stopping", "warding off", "halting"]
 
-var sentence2=`Even then, it is almost exclusively used towards East Asians, preventing inclusive representation`
+var sentence2=`${evenThenSyn[Math.floor(Math.random()*eventThenSyn.length)]}, it is ${almostexclusivelySyn[Math.floor(Math.random()*almostexclusivelySyn.length)]} used ${towardsSyn[Math.floor(Math.random()*towardsSyn.length)]} East Asians, ${preventingSyn[Math.floor(Math.random()*preventingSyn.length)]} inclusive representation`
+
+
+
 //We all carry our own lived experiences and cultural individualities, yet the term “asian” extinguishes that. 
 var weSyn = ["Everyone carries their own lived experiences and cultural individualities, yet the term \"Asian\" extinguishes that"]
 var carrySyn = ["carry", "bring", "have"]
