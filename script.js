@@ -8,19 +8,18 @@ var compSyn = ["companies", "corporations"]
 var yetSyn = ["yet", "but", "though"]
 var condenseSyn = ["condense", "minimize the identities of", "condense the identities of", "minimize"]
 var simplySyn = ["simply", "plainly"]
-var millSyn = ["18 million", "millions of", "18,000,000"]
+var millSyn = ["over 18 million", "tens of millions of", "over 18,000,000"]
 var termSyn = ["word", "term", "label"]
 
-var sentence1 = `Asia is a ${complexSyn[Math.floor(Math.random()*complexSyn.length)]} continent with ${manySyn[Math.floor(Math.random()*manySyn.length)]} ${diffSyn[Math.floor(Math.random()*diffSyn.length)]} countries and cultures, ${yetSyn[Math.floor(Math.random()*yetSyn.length)]} ${bigSyn[Math.floor(Math.random()*bigSyn.length)]} ${compSyn[Math.floor(Math.random()*compSyn.length)]} ${condenseSyn[Math.floor(Math.random()*condenseSyn.length)]} ${millSyn[Math.floor(Math.random()*millSyn.length)]} people ${simplySyn[Math.floor(Math.random()*simplySyn.length)]} into the ${termSyn[Math.floor(Math.random()*termSyn.length)]} Asian// Even then, it is almost exclusively used towards East Asians, preventing inclusive representation.`
+var sentence1 = Asia is a ${complexSyn[Math.floor(Math.random()*complexSyn.length)]} continent with ${manySyn[Math.floor(Math.random()*manySyn.length)]} ${diffSyn[Math.floor(Math.random()*diffSyn.length)]} countries and cultures, ${yetSyn[Math.floor(Math.random()*yetSyn.length)]} ${bigSyn[Math.floor(Math.random()*bigSyn.length)]} ${compSyn[Math.floor(Math.random()*compSyn.length)]} ${condenseSyn[Math.floor(Math.random()*condenseSyn.length)]} ${millSyn[Math.floor(Math.random()*millSyn.length)]} people ${simplySyn[Math.floor(Math.random()*simplySyn.length)]} into the ${termSyn[Math.floor(Math.random()*termSyn.length)]} Asian
+// Even then, it is almost exclusively used towards East Asians, preventing inclusive representation.
 var evenThenSyn = ["Even so", "Even then", "However", "Although"]
 var itsSyn = ["it is", "it's"]
-var almostexclusivelySyn = ["almost exclusively", "always", "consistently", "constantly", "perpetually", "every time"]
-var towardsSyn = ["toward", "directed", "aimed", "for"]
+var exclusivelySyn = ["almost exclusively", "nearly always", "consistently", "constantly", "perpetually", "always"]
+var towardsSyn = ["used toward", "directed at", "aimed at", "for", "used towards"]
 var preventingSyn = ["preventing", "blocking", "stopping", "warding off", "halting"]
 
 var sentence2=`${evenThenSyn[Math.floor(Math.random()*evenThenSyn.length)]}, ${itsSyn[Math.floor(Math.random()*itsSyn.length)]} ${exclusivelySyn[Math.floor(Math.random()*exclusivelySyn.length)]} ${towardsSyn[Math.floor(Math.random()*towardsSyn.length)]} East Asians, ${preventingSyn[Math.floor(Math.random()*preventingSyn.length)]} inclusive representation`
-
-
 //We all carry our own lived experiences and cultural individualities, yet the term “asian” extinguishes that. 
 var weSyn = ["Everyone carries their own lived experiences and cultural individualities, yet the term \"Asian\" extinguishes that"]
 var carrySyn = ["carry", "bring", "have"]
