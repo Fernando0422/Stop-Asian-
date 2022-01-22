@@ -19,8 +19,7 @@ var almostexclusivelySyn = ["almost exclusively", "always", "consistently", "con
 var towardsSyn = ["toward", "directed", "aimed", "for"]
 var preventingSyn = ["preventing", "blocking", "stopping", "warding off", "halting"]
 
-var sentence2=`${evenThenSyn[Math.floor(Math.random()*eventThenSyn.length)]}, it is ${almostexclusivelySyn[Math.floor(Math.random()*almostexclusivelySyn.length)]} used ${towardsSyn[Math.floor(Math.random()*towardsSyn.length)]} East Asians, ${preventingSyn[Math.floor(Math.random()*preventingSyn.length)]} inclusive representation`
-
+var sentence2=`${evenThenSyn[Math.floor(Math.random()*evenThenSyn.length)]}, ${itsSyn[Math.floor(Math.random()*itsSyn.length)]} ${exclusivelySyn[Math.floor(Math.random()*exclusivelySyn.length)]} ${towardsSyn[Math.floor(Math.random()*towardsSyn.length)]} East Asians, ${preventingSyn[Math.floor(Math.random()*preventingSyn.length)]} inclusive representation`
 
 
 //We all carry our own lived experiences and cultural individualities, yet the term “asian” extinguishes that. 
