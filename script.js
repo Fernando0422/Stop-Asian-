@@ -11,7 +11,7 @@ var simplySyn = ["simply", "plainly"]
 var millSyn = ["over 18 million", "tens of millions of", "over 18,000,000"]
 var termSyn = ["word", "term", "label"]
 
-var sentence1 = Asia is a ${complexSyn[Math.floor(Math.random()*complexSyn.length)]} continent with ${manySyn[Math.floor(Math.random()*manySyn.length)]} ${diffSyn[Math.floor(Math.random()*diffSyn.length)]} countries and cultures, ${yetSyn[Math.floor(Math.random()*yetSyn.length)]} ${bigSyn[Math.floor(Math.random()*bigSyn.length)]} ${compSyn[Math.floor(Math.random()*compSyn.length)]} ${condenseSyn[Math.floor(Math.random()*condenseSyn.length)]} ${millSyn[Math.floor(Math.random()*millSyn.length)]} people ${simplySyn[Math.floor(Math.random()*simplySyn.length)]} into the ${termSyn[Math.floor(Math.random()*termSyn.length)]} Asian
+var sentence1 = `Asia is a ${complexSyn[Math.floor(Math.random()*complexSyn.length)]} continent with ${manySyn[Math.floor(Math.random()*manySyn.length)]} ${diffSyn[Math.floor(Math.random()*diffSyn.length)]} countries and cultures, ${yetSyn[Math.floor(Math.random()*yetSyn.length)]} ${bigSyn[Math.floor(Math.random()*bigSyn.length)]} ${compSyn[Math.floor(Math.random()*compSyn.length)]} ${condenseSyn[Math.floor(Math.random()*condenseSyn.length)]} ${millSyn[Math.floor(Math.random()*millSyn.length)]} people ${simplySyn[Math.floor(Math.random()*simplySyn.length)]} into the ${termSyn[Math.floor(Math.random()*termSyn.length)]} Asian`
 // Even then, it is almost exclusively used towards East Asians, preventing inclusive representation.
 var evenThenSyn = ["Even so", "Even then", "However", "Although"]
 var itsSyn = ["it is", "it's"]
